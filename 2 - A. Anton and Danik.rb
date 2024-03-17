@@ -36,6 +36,68 @@
 
 
 ###############
-# Solution
+# Solution # Three Solutions for this problem
 ###############
+
+def determine_winner(games_outcome)
+  anton_wins = games_outcome.count('A')
+  danik_wins = games_outcome.count('D')
+
+  if anton_wins > danik_wins
+    return "Anton"
+  elsif anton_wins < danik_wins
+    return "Danik"
+  else
+    return "Friendship"
+  end
+end
+
+# Read input
+n = gets.chomp.to_i
+games_outcome = gets.chomp
+
+# Determine the winner
+puts determine_winner(games_outcome)
+
+
+################################################
+
+n = gets.chomp.to_i
+games_outcome = gets.chomp
+
+nA = games_outcome.count('A')
+nD = games_outcome.count('D')
+
+if nA > nD
+  puts "Anton"
+elsif nA < nD
+  puts "Danik"
+else
+  puts "Friendship"
+end
+
+######################################
+
+nA = 0
+nD = 0
+
+number_games = gets.chomp.to_i
+strings = gets.chomp.upcase
+
+strings.chars.each do |char|
+  if char == 'A'
+    nA += 1
+  elsif char == 'D'
+    nD += 1
+  end
+end
+
+if nA > nD
+  puts "Anton"
+elsif nA < nD
+  puts "Danik"
+else
+  puts "Friendship"
+end
+
 
