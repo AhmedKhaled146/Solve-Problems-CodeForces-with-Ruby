@@ -1,8 +1,4 @@
 # A. Anton and Danik
-# time limit per test: 1 second
-# memory limit per test: 256 megabytes
-# inputstandard input
-# outputstandard output
 # Anton likes to play chess, and so does his friend Danik.
 #   Once they have played n games in a row. For each game it's known who was the winner — Anton or Danik. None of the games ended with a tie.
 # Now Anton wonders, who won more games, he or Danik? Help him determine this.
@@ -19,16 +15,6 @@
 # ADAAAA
 # output
 # Anton
-# input
-# 7
-# DDDAADA
-# output
-# Danik
-# input
-# 6
-# DADADA
-# output
-# Friendship
 # Note
 # In the first sample, Anton won 6 games, while Danik — only 1. Hence, the answer is "Anton".
 # In the second sample, Anton won 3 games and Danik won 4 games, so the answer is "Danik".

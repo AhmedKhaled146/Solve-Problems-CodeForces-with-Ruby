@@ -1,8 +1,4 @@
 # A. Vanya and Fence
-# time limit per test: 1 second
-# memory limit per test: 256 megabytes
-# inputstandard input
-# outputstandard output
 # Vanya and his friends are walking along the fence of height h and they do not want the guard to notice them. In order to achieve this the height of each of the friends should not exceed h. If the height of some person is greater than h he can bend down and then he surely won't be noticed by the guard. The height of the i-th person is equal to ai.
 # Consider the width of the person walking as usual to be equal to 1, while the width of the bent person is equal to 2. Friends want to talk to each other while walking, so they would like to walk in a single row. What is the minimum width of the road, such that friends can walk in a row and remain unattended by the guard?
 # Input
@@ -17,16 +13,7 @@
 # 4 5 14
 # output
 # 4
-# input
-# 6 1
-# 1 1 1 1 1 1
-# output
-# 6
-# input
-# 6 5
-# 7 6 8 9 10 5
-# output
-# 11
+
 # Note
 # In the first sample, only person number 3 must bend down, so the required width is equal to 1+1+2=4.
 # In the second sample, all friends are short enough and no one has to bend, so the width 1+1+1+1+1+1=6 is enough.
